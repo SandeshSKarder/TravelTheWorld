@@ -1,0 +1,91 @@
+/* body{
+    background-color: rgb(199, 197, 197);
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: black;
+    height: 12vh;
+    width: 100vw;
+}
+#list-item{
+    list-style-type: none;
+    float: right;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(233, 238, 239);
+    font-size: 17px;
+    font-family:Agency FB;
+}
+.list-items{
+    transform: translate(-50px,-15px);
+    
+    
+}
+#heading1{
+   transform: translate(50px,20px);
+   color:rgb(238, 245, 247) ;
+   font-size: 40px;
+   width: 50vw;
+   
+}
+.About{
+    border-bottom: 4px solid red;
+}
+.div1{
+    padding: 50px;
+    background-color: aliceblue;
+    font-family: Arial;
+}
+#item{
+    list-style-type: none;
+    line-height: 35px;
+}
+#item1{
+    list-style-type: none;
+    line-height: 35px;
+}
+.div2{
+    display: flex;
+    justify-content: space-evenly;
+}
+i{
+    color: rgb(185, 18, 18);
+}
+.div5{
+    display: flex;
+    justify-content: space-around;
+    line-height: 25px;
+    padding-top: 30px;
+}
+#p{
+    color: red;
+    margin-left: 8px;
+    font-weight: bold;
+}
+.div6{
+    padding: 25px;
+    background-image: linear-gradient(to right,rgb(217, 10, 134),rgb(191, 30, 240));
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+#divP{
+    width: 1000px;
+    font-family: Arial;
+}
+#btn-contactUs{
+    width: 130px;
+    height: 30px;
+    margin-right: 50px;
+    border: 3px solid  white;
+    background-color: transparent;
+}
+a:hover{
+    background-color: aqua;
+    width: 50px;
+}
